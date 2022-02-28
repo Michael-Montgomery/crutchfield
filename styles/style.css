@@ -12,11 +12,6 @@ body{
     margin-bottom: 40px;
 }
 
-h2 {
-    font-family: 'Parisienne', cursive;
-    
-}
-
 ul {
     padding: 0;
 }
@@ -338,7 +333,7 @@ margin-top: 150px;
     }
 
     .area-wrapper p {
-        font-size: 1em;
+        font-size: 1.2em;
     }
 
     #testimony-video-wrapper{
@@ -374,6 +369,10 @@ margin-top: 150px;
         margin-left: -5px;
     }
 
+    .contact-wrapper {
+        padding-top: 30px;
+    }
+
     .half {
         width: 45vw;
     }
@@ -390,6 +389,10 @@ margin-top: 150px;
         height: 175px;
         width: 175px;
         margin: auto;
+    }
+
+    .areas-wrapper h2 {
+        margin-bottom: 1px;
     }
 
 }

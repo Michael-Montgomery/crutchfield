@@ -1,7 +1,20 @@
+* {
+    transition: all .4s;
+}
+
+body{
+    scroll-behavior: smooth;
+}
+
 .header {
     height: 120px;
     background-color: white;
     margin-bottom: 40px;
+}
+
+h2 {
+    font-family: 'Parisienne', cursive;
+    
 }
 
 ul {
@@ -40,6 +53,7 @@ header nav a img {
 .areas-wrapper h2 {
     text-align: center;
     color: rgb(22,36,115);
+    font-family: 'Parisienne', cursive;
 }
 
 #areas-list {
@@ -74,6 +88,7 @@ header nav a img {
 .frequent-questions-wrapper h2 {
     text-align: center;
     color: rgb(22,36,115);
+    font-family: 'Parisienne', cursive;
 }
 
 details {
@@ -105,6 +120,7 @@ margin-top: 150px;
 #legal-team-wrapper h2{
     text-align: center;
     color:rgb(22,36,115);
+    font-family: 'Parisienne', cursive;
 }
 
 #legal-team-wrapper p{
@@ -144,6 +160,7 @@ margin-top: 150px;
 .testimony-wrapper h2 {
     text-align: center;
     color: rgb(22,36,115);
+    font-family: 'Parisienne', cursive;
 }
 
 #testimony-video-wrapper{
@@ -171,6 +188,7 @@ margin-top: 150px;
 
 .contact-wrapper h2 {
     color: white;
+    font-family: 'Parisienne', cursive;
 }
 
 .half {

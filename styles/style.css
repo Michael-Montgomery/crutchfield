@@ -234,6 +234,49 @@ margin-top: 150px;
 }
 
 
+.footer-left {
+    text-align: center;
+    padding-top: 15px;
+}
+
+.footer-left address {
+    font-size: 1.5em;
+    color: rgb(22,36,115)
+}
+
+.footer-left address a {
+    color: rgb(22,36,115)
+}
+
+.footer-left address a:hover {
+    color: #AC7034;
+}
+
+.footer-right {
+    padding-top: 15px;
+    text-align: center;
+    font-size: 1.5em;
+    color: rgb(22,36,115);
+}
+
+.footer-right p {
+    margin-bottom: -20px;
+}
+
+.footer-right ul {
+    list-style-type: none;
+    
+}
+
+.footer-right a {
+    color: rgb(22,36,115)
+}
+
+.footer-right a:hover {
+    color: #AC7034;
+}
+
+
 
 
 /* Dedicated page styling */

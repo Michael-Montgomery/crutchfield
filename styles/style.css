@@ -1,5 +1,6 @@
 * {
     transition: all .4s;
+    outline: none;
 }
 
 body{

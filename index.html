@@ -26,6 +26,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Parisienne&display=swap" rel="stylesheet">
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 </head>
 
 <body>
@@ -234,7 +235,7 @@
                     <input type="text" placeholder="First Name" class="half">
                     <input type="text" placeholder="Last Name" class="half"><br>
                     <input type="email" class="full" placeholder="Email Address"><br>
-                    <textarea class="full">Your message here...</textarea><br>
+                    <textarea class="full" placeholder="Your message here..."></textarea><br>
                     <button class="half clear-form-btn">Clear Form</button>
                     <button class="half submit-form-btn">Submit</button>
                     <ul>
@@ -274,6 +275,15 @@
         </div>
     </div>
     <script src="scripts/script.js"></script>
+
+    <script>
+        document.querySelector('.clear-form-btn').addEventListener('click', (e) => {
+            e.preventDefault();
+            document.querySelectorAll('#contact input, #contact textarea').forEach((nPut) => {
+                nPut.value = '';
+            })
+        })
+    </script>
 </body>
 
 </html>

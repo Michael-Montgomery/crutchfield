@@ -59,6 +59,9 @@ header nav a img {
     margin: auto;
     margin-top: 150px;
     z-index: 1;
+    box-shadow: 0px 0px 15px -1px rgba(0,0,0,0.75);
+-webkit-box-shadow: 0px 0px 15px -1px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 15px -1px rgba(0,0,0,0.75);
 }
 
 .area-wrapper {
@@ -183,6 +186,12 @@ margin-top: 150px;
     background-size: cover;
 }
 
+.attorney-pic-wrapper:hover {
+    box-shadow: 0px 0px 15px -1px rgba(0,0,0,0.75);
+-webkit-box-shadow: 0px 0px 15px -1px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 15px -1px rgba(0,0,0,0.75);
+}
+
 
 .attorney-pic-wrapper {
     height: 250px;
@@ -192,7 +201,7 @@ margin-top: 150px;
 
 .attorney-name {
     text-align: center;
-    font-size: 1.4em;
+    font-size: 1.3em;
 }
 
 .testimony-wrapper {

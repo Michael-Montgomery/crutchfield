@@ -57,7 +57,7 @@ header nav a img {
     background-image: url('../assets/team.png');
     background-size: cover;
     margin: auto;
-    margin-top: 150px;
+    margin-top: 80px;
     z-index: 1;
     box-shadow: 0px 0px 15px -1px rgba(0,0,0,0.75);
 -webkit-box-shadow: 0px 0px 15px -1px rgba(0,0,0,0.75);
@@ -155,7 +155,7 @@ details ul li {
 }
 
 #legal-team-wrapper {
-margin-top: 150px;
+margin-top: 80px;
 }
 
 #legal-team-wrapper h2{
@@ -354,11 +354,11 @@ margin-top: 150px;
 /* Dedicated page styling */
 
 #faq-page-wrapper {
-    padding-top: 200px;
+    padding-top: 100px;
 }
 
 #areas-page {
-    margin-top: 150px;
+    margin-top: 80px;
 }
 
 
